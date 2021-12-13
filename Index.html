@@ -10,19 +10,65 @@
 </head>
 <body>
     <div class="outer-container">
-        <div id="navbar">
-            <script src="./JS/sticky-navbar"></script> 
-            <img src="./Images/sneakers.png" class="nav-icon"></img>
-            <a href="#Products">Produkter</a>
-            <a href="#Pricing">Priser</a>
-            <a href="#About">Om</a>
-            <a href="#contact">Kontakt</a>
-            <a>                 </a>
-            <a href="#Support">Support</a>
-          </div> 
-          <div class="content">
-            
-          </div>
-    </div>
+        <div class="navbar">
+            <li>
+                <ul class="sneakers-dropdown">
+                    <button class="dropbtn" onclick="window.location.href='./';">Hjem</button>
+                </ul>
+                <ul class="sneakers-dropdown">
+                    <button class="dropbtn">Nyeste
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                        <a href="#">Link 4</a>
+                        <a href="#">Link 5</a>
+                        <a href="#">Link 6</a>
+                        <a href="#">Link 7</a>
+                        <a href="#">Link 8</a>
+                    </div>
+                </ul>
+                <ul class="sneakers-dropdown">
+                    <button class="dropbtn">Mænd
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </ul>
+                <ul class="sneakers-dropdown">
+                    <button class="dropbtn">Kvinder
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </ul>
+            </li>
+        </div>
+        <div class="website-content"></div>
+    </div> 
+    <footer class="footer">
+        <li>
+            <ul>Kontakt</ul>
+            <ul>Menu</ul>
+        </li>
+    </footer>
 </body>
 </html>
+
+<!-- <div class="sneakers-dropdown">
+    <button class="dropbtn">Sneakers
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+  </div> -->
